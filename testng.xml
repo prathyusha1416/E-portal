@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LeaveAutomation5" parallel="false">
+    <listeners>
+        <listener class-name="Listeners.ScreenshotListener"/>
+    </listeners>
+    <test name="Leave Applications">
+        <classes>
+        	<class name="TestCases.AutomateleavesinTestng"/>
+            <class name="TestCases.ManagerLogin"/>
+        </classes>
+    </test>
+</suite>
